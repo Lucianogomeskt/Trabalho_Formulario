@@ -1,0 +1,82 @@
+/* Estilo geral do body da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte usada no texto */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    display: flex; /* Define um layout flexível para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da janela de visualização */
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo da div container que envolve o formulário */
+.container {
+    background-color: #8B4513; /* Cor de fundo semelhante ao marrom da imagem */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor da caixa */
+    width: 300px; /* Largura da caixa */
+    text-align: center; /* Alinhamento centralizado do texto */
+}
+
+/* Estilo do formulário em si */
+form {
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo do título principal (h1) */
+h1 {
+    color: #fff; /* Cor branca para o texto */
+    font-size: 24px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estilo do parágrafo (p) */
+p {
+    color: #fff; /* Cor branca para o texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+/* Estilo dos rótulos (labels) para os campos */
+label {
+    display: block; /* Cada label ocupa uma linha inteira */
+    text-align: left; /* Alinha o texto à esquerda */
+    color: #fff; /* Cor branca para o texto */
+    font-weight: bold; /* Texto em negrito */
+    margin-bottom: 5px; /* Espaçamento inferior */
+}
+
+/* Estilo para os campos de entrada de texto, email, textarea e select */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%; /* Ocupa 100% da largura do container */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento inferior */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estilo específico para o textarea */
+textarea {
+    height: 80px; /* Altura fixa do campo de texto */
+}
+
+/* Estilo para o botão de envio */
+button {
+    background-color: #333; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno (vertical e horizontal) */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+/* Efeito de hover (passar o mouse) no botão */
+button:hover {
+    background-color: #555; /* Cor do botão ao passar o mouse */
+}
+

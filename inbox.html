@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a largura da página para a largura da tela -->
+    <title>Formulário de Contato</title> <!-- Título da página que aparece na aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+    <div class="container"> <!-- Container que envolve o formulário -->
+        <form> <!-- Início do formulário -->
+            <h1>Formulário de Contato</h1> <!-- Título do formulário -->
+            <p>Preencha todos os campos.</p> <!-- Subtítulo do formulário -->
+            
+            <!-- Campo de entrada para Nome -->
+            <label for="nome">Nome :</label> <!-- Rótulo do campo Nome -->
+            <input type="text" id="nome" name="nome" placeholder="Nome Completo"> <!-- Campo de entrada de texto para o Nome -->
+            
+            <!-- Campo de entrada para Email -->
+            <label for="email">Email :</label> <!-- Rótulo do campo Email -->
+            <input type="email" id="email" name="email" placeholder="Email"> <!-- Campo de entrada de texto para o Email -->
+            
+            <!-- Campo de seleção para Assunto -->
+            <label for="assunto">Assunto :</label> <!-- Rótulo do campo Assunto -->
+            <select id="assunto" name="assunto"> <!-- Menu suspenso para seleção de Assunto -->
+                <option value="" disabled selected>Selecione um assunto</option> <!-- Placeholder para a seleção de assunto -->
+                <option value="suporte">Suporte Técnico</option> <!-- Opção 1: Suporte Técnico -->
+                <option value="vendas">Informações sobre Vendas</option> <!-- Opção 2: Informações sobre Vendas -->
+                <option value="feedback">Feedback sobre Produto</option> <!-- Opção 3: Feedback sobre Produto -->
+            </select>
+            
+            <!-- Campo de entrada para Mensagem -->
+            <label for="mensagem">Mensagem :</label> <!-- Rótulo do campo Mensagem -->
+            <textarea id="mensagem" name="mensagem" placeholder="Mensagem"></textarea> <!-- Campo de área de texto para a Mensagem -->
+            
+            <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
+        </form> <!-- Fim do formulário -->
+    </div>
+</body>
+</html>
